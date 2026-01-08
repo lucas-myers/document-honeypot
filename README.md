@@ -12,7 +12,7 @@ Filebeat sends logs to Elasticsearch for indexing and analysis
 Kibana dashboards visualize intrusion events and source IPs in real time
 
 
-🧰 Tech Stack
+ Tech Stack
 Component	Tool
 Infrastructure	Terraform
 Configuration Management	Ansible
@@ -22,9 +22,7 @@ Visualization	Kibana
 Web Server	Nginx
 Containerization	Docker
 
-🚀 How to Run
-
-Deploy the Environment
+Deployment:
 
 terraform apply
 ansible-playbook deploy.yml
@@ -46,6 +44,6 @@ Purpose
 This honeypot demonstrates how intrusion attempts can be safely observed and analyzed using automated tools and centralized logging systems.
 It helps visualize attack patterns, source IPs, and access behavior for cybersecurity research and education.
 
-⚠️ Disclaimer
+ Disclaimer
 This honeypot is for educational and research purposes only.
 Do not deploy it on public networks or production systems.
